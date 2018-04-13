@@ -9,7 +9,7 @@ Pozdrav od RBT tima!
 
 ### Mobile (iOS, Android)
 
-- [Zadatak 1 - Konvertor Crypto valuta](assignments/assignment1.md)
+- [Zadatak 1 - Praćenje vrednosti Crypto valuta](assignments/assignment1.md)
 - [Zadatak 2 - Music player](assignments/assignment2.md)
 
 ### Backend
@@ -18,5 +18,5 @@ Pozdrav od RBT tima!
 
 ### Frontend
 
-- [Zadatak 4 - last.fm  top 10 Rock izvođača](assignments/assignment4.md)
+- [Zadatak 4 - last.fm  top 10 Rock izvođača](assignments/assignment4.md) 
 -->
