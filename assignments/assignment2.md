@@ -42,6 +42,7 @@ Potrebno je napraviti aplikaciju za pregled i streaming muzike koristeći [Free 
 
 ## Bonus
 
+* implementirati search
 * napraviti API manager po uzoru na diagram
 
 ![diagram]({{ "/assets/img/assignment2_0.png" | absolute_url }})
