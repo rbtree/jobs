@@ -26,7 +26,7 @@ Potrebno je napraviti aplikaciju za uporedni prikaz vrednosti Crypto valuta kori
 			* nije dozvoljeno koristiti third-party biblioteke za iscrtavanje grafikona
 			* grafički prikaz uraditi po uzoru na diagram
 			
-			![diagram]({{ site.url }}/assets/img/assignment1_0.png)
+			![diagram]({{ "/assets/img/assignment1_0.png" | absolute_url }})
 
 ## Bonus
 

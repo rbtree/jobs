@@ -4,7 +4,7 @@
 
 Potrebno je pronaći najkraći put između dve tačke na mapi (primer mape se nalazi na slici ispod).
 
-![map]({{ site.url }}/assets/img/assignment3_0.png)
+![map]({{ "/assets/img/assignment3_0.png" | absolute_url }})
 
 ## Zahtevi
 

@@ -44,7 +44,7 @@ Potrebno je napraviti aplikaciju za pregled i streaming muzike koristeći [Free 
 
 * napraviti API manager po uzoru na diagram
 
-![diagram]({{ site.url }}/assets/img/assignment2_0.png)
+![diagram]({{ "/assets/img/assignment2_0.png" | absolute_url }})
 
 ## Napomena
 
