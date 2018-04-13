@@ -2,7 +2,6 @@
 
 Zdravo! Drago nam je što si ovde!
 
-<!-- 
 Ukoliko želiš da postaneš deo RBT tima i družiš se sa nama, molimo te da u zavisnoti od tvojih interesovanja uradiš jedan od zadataka ispod i pošalješ nam CV i rešenje na <jobs@rbt.rs>. 
 
 Pozdrav od RBT tima!
@@ -18,5 +17,4 @@ Pozdrav od RBT tima!
 
 ### Frontend
 
-- [Zadatak 4 - last.fm  top 10 Rock izvođača](assignments/assignment4.md) 
--->
+- [Zadatak 4 - last.fm  top 10 Rock izvođača](assignments/assignment4.md)
