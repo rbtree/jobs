@@ -10,11 +10,14 @@ Pozdrav od RBT tima!
 
 - [Zadatak 1 - Praćenje vrednosti Crypto valuta](assignments/assignment1.md)
 - [Zadatak 2 - Music player](assignments/assignment2.md)
+- [Zadatak 3 - Igra memorije](assignments/assignment3.md)
+- [Zadatak 4 - Pretraga mesta](assignments/assignment4.md)
+- [Zadatak 5 - Vesti](assignments/assignment5.md)
 
 ### Backend
 
-- [Zadatak 3 - Najkraći put na mapi](assignments/assignment3.md)
+- [Zadatak 6 - Najkraći put na mapi](assignments/assignment6.md)
 
 ### Frontend
 
-- [Zadatak 4 - last.fm  top 10 Rock izvođača](assignments/assignment4.md)
+- [Zadatak 7 - last.fm  top 10 Rock izvođača](assignments/assignment7.md)

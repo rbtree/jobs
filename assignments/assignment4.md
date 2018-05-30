@@ -1,26 +1,18 @@
-# Zadatak 4 - last.fm  top 10 Rock izvođača
+# Zadatak 4 - Pretraga mesta
+
+## Opis
+
+Potrebno je napraviti aplikaciju za pretragu mesta/lokaliteta koristeći [Google Places JSON API](https://developers.google.com/places/web-service/intro) (ne koristiti Google Places iOS/Android SDK)
 
 ## Zahtevi
 
-Korišćenjem **Angular 5**, **Bootstrap 4** i **[last.fm API-a](https://www.last.fm/api/intro)** potrebno je napraviti aplikaciju koja će prikazivati top 10 Rock izvođača, njihove albume i pesme.
+* prvi ekran treba da sadrži jedan text field za pretragu sa autocomplete funkcionalnošću (samostalno odlučiti kako će ovaj deo vizuelno izgledati)
+	* https://developers.google.com/places/web-service/autocomplete
+* odabirom mesta/lokaliteta otvara se ekran sa detaljima (**potrebno je prikazati sve informacije dobijene preko api-ja**, samostalno odlučiti kako će ovaj deo vizuelno izgledati)
+	* https://developers.google.com/places/web-service/details
+* napraviti API manager po uzoru na diagram ispod
 
-Aplikacija se sastoji od 2 stranice:
-
-1. Na početnoj strani treba prikazati *top 10 Rock izvođača* u vidu kartica (320x320px).
-
-    * Na prednjoj strani kartice prikazati sliku izvođača, poziciju na rang listi i naziv izvođača.
-    * Prelaskom kursora preko kartice, kartica se okreće oko vertikalne ose i prikazuje se poleđina kartice.
-    * Na poleđini kartice prikazati: 
-        - kratak opis izvođača (summary) i ograničiti broj prikazanih karaktera na 300,
-		- dugme "Albums" koje vodi na stranicu sa albumima odabranog izvođača
-
-2. Na stranici sa Albumima treba prikazati maksimalno 10 albuma, takođe u vidu kartica (istih dimenzija kao i na početnoj strani)
-
-	* Na prednjoj strani kartice prikazati sliku albuma i naziv albuma.
-	* Prelaskom kursora preko kartice dešava se ista animacija kao i na početnoj strani.
-	* Na poleđini kartice prikazati listu pesama sa albuma (redni broj pesme, naziv pesme), klik na pesmu vodi na last.fm stranicu pesme.
-	* Implementirati "infinite scroll", svaki put kad se odskrola na dno stranice treba učitati jos 10 albuma i njihovih pesama.
-	* Implementirati pretragu po imenu albuma.
+![diagram]({{ "/assets/img/assignment4_0.png" | absolute_url }})
 
 ## Napomena
 

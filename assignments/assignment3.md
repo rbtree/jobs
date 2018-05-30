@@ -1,84 +1,42 @@
-# Zadatak 3 - Najkraći put na mapi
+# Zadatak 3 - Igra memorije
 
 ## Opis
 
-Potrebno je pronaći najkraći put između dve tačke na mapi (primer mape se nalazi na slici ispod).
-
-![map]({{ "/assets/img/assignment3_0.png" | absolute_url }})
+Potrebno je napraviti [Igru Memorije](https://en.wikipedia.org/wiki/Concentration_(game))
 
 ## Zahtevi
 
-Potrebno je napraviti konzolnu aplikaciju u programskom jeziku po izboru. Potrebno je da program:
-- prihvata putanju do dokumenta kojim je opisana mapa (koordinate mape, početna i krajnja tačka puta; primer u nastavku) kao ulazni parametar (obavezan parametar),
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<cells>
-		<cell row="1" col= "A" />
-		<cell row="1" col= "B" />
-		<cell row="1" col= "C" />
-		<cell row="1" col= "D" />
-		<cell row="2" col= "B" />
-		<cell row="3" col= "A" />
-		<cell row="3" col= "B" />
-		<cell row="3" col= "C" />
-		<cell row="3" col= "D" />		
-		<cell row="4" col= "A" />
-		<cell row="4" col= "C" />
-		<cell row="4" col= "D" />		
-	</cells>	
-	<start-point row="1" col= "C" />
-	<end-point row="4" col= "C" />
-</map>
-```
-
-- prihvata putanju do dokumenta u kome će biti sačuvano rešenje zadatka kao ulazni parametar (nije obavezan parametar),
-- prikazuje poruku o grešci ukoliko obavezni parametri nisu specificirani ili su specificirani u pogrešnom formatu,
-- prikazuje poruku o grešci ukoliko sadržaj dokumenta kojim je opisana mapa nije u odgovarajućem formatu,
-- kao rezultat generiše dokument (primer u nastavku) čiji sadržaj bi trebalo da bude lista najkraćih putanja za zadate tačke, kao i vreme izvršenja,
-
-```json
-{
-	"execution_time_in_ms": 10,	
-	"paths": [
-		{
-			"points":[
-				{
-					"row": 1,
-					"col": "C"
-				},
-				{
-					"row": 1,
-					"col": "B"
-				},
-				{
-					"row": 2,
-					"col": "B"
-				},			
-				{
-					"row": 3,
-					"col": "B"
-				},
-				{
-					"row": 3,
-					"col": "C"
-				},
-				{
-					"row": 4,
-					"col": "C"
-				}
-			]
-		}
-	]
-}
-```
-
-- prikazuje putanju do dokumenta u kome se nalazi rešenje zadatka
+* igra treba da ima tri nivoa - (4x4), (6x6), (8x8)
+* prilikom pokretanja igre korisnik će moći da odabere nivo (samostalno odlučiti kako će ovaj deo vizuelno izgledati)
+* nakon što korisnik uđe u igru, na ekranu treba da mu se prikaže grid za odabrani nivo
+* svaka kartica treba da se sastoji od dve stranice
+	* `lica` na kojem se nalazi slika koju treba upariti
+	* i `naličja` na kome se nalazi pozadinska slika (ista za sve kartice)
+* na početku igre sve kartice su okrenute licem na dole
+* prilikom pritiska na karticu, kartica se okreće
+* maksimalno dve kartice mogu biti otvorene u istom trenutku
+* ukoliko otvorene kartice nisu iste, treba ih zatvoriti (nakon 1s ako korisnik ne preduzme nikakvu akciju ili čim pokuša da otvori treću karticu)
+* ukoliko su otvorene kartice iste, one ostaju na ekranu
+* na glavnom ekranu igre, pored grida, treba da budu prikazane i sledeće informacije
+	* proteklo vreme od početka igre
+	* broj klikova, odnosno pritisaka na kartice
+	* dugme za pauziranje igre
+* pritiskom na dugme `pauza` korisnik dobija opcije da
+	* nastavi započetu igru
+	* resetuje započetu igru
+	* prekine igru (vraća se na početni ekran)
+* igra se završava kada korisnik upari sve kartice
+* po završetku igre korisniku omogućiti da se taj rezultat share-uje (Facebook, Twitter…)
+* nakon što korisnik završi sa akcijom share-ovanja, portrebno je da mu se na ekranu prikaže rang lista sa mogućnošću da upiše svoje ime ako je u prvih 10 rezultata (rezultate čuvati u file-u i pamtiti 10 najboljih rezultata)
+	* rezultate čuvati po nivou težine igre
+	* prvi kriterijum za sortiranje je broj klikova
+	* drugi kriterijum za sortiranje je proteklo vreme
+* sa ovog ekrana korisnik može da se vrati na početni odakle ponovo može da započne igru
 
 ## Bonus
 
-Za bonus poene, potrebno je sav kod pokriti Unit testovim i/ili izložiti prethodno implemetiranu funkcionalnost kroz REST API.
+* implementirati animaciju za okretanje kartica
+* implementirati custom tranzicije između ekrana
 
 ## Napomena
 

@@ -1,4 +1,4 @@
-# Praćenje vrednosti Crypto valuta
+# Zadatak 1 - Praćenje vrednosti Crypto valuta
 
 ## Opis
 
