@@ -9,3 +9,5 @@
 [DevOps Engineer](job4.html)
 
 [Quality Assurance Engineer](job5.html)
+
+[Front-End Developer](job6.html)
