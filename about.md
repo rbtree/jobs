@@ -1,6 +1,6 @@
 ## RBT
 
-Red Black Tree je u potpunosti srpska softverska kompanija koja postoji skoro 6 godina. Stalno lagano i kontrolisano rastemo, tako da nas sada ima oko 40. Smešteni smo na Zvezdari, u mirnom rezidencijalnom kraju, a nedavno smo otvorili i odeljenje u Čačku. 
+Red Black Tree je u potpunosti srpska softverska kompanija koja postoji već 6 godina. Stalno lagano i kontrolisano rastemo, tako da nas sada ima preko 40. Smešteni smo na Zvezdari, u mirnom rezidencijalnom kraju, a nedavno smo otvorili i odeljenje u Čačku. 
 
 Bavimo se proizvodnjom softvera, uglavnom za klijente u SAD. Od prvog dana posvećeni smo pružanju kvaliteta, poštovanju rokova, profesionalizmu i ličnom napretku, i kada god je moguće (a skoro uvek je moguće :) - davanju više od obećanog. Zato imamo kvalitetnu saradnju i dugoročne projekte, koji nam obezbeđuju stabilnost. 
 
