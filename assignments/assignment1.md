@@ -6,7 +6,7 @@ Potrebno je napraviti aplikaciju za uporedni prikaz vrednosti Crypto valuta kori
 
 ## Zahtevi
 
-* prvi ekran treba da sadrži listu svih crypto valuta koje API podržava
+* prvi ekran treba da sadrži listu svih crypto valuta koje API podržava, sortiranih po `SortOrder`
 	* za svaku crypto valuta u listi treba prikazati
 		* naziv
 		* simbol
